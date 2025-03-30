@@ -5,7 +5,7 @@ function Hobby2(){
     return(
         <>
             <p>My favorite hobby is going hiking in New England, especially in New Hampshire! It's a calming activity for me that I always look forward to doing.</p>
-            <div className="banner2">
+            <div className="banner">
                 <img src="../public/claire-image.jpg" alt="Hiking Photos" width={640}></img>
             </div>
             <List2/>

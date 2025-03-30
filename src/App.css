@@ -1,7 +1,6 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
 }
 body{
   background-color: lavender;
@@ -34,4 +33,27 @@ h1{
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
+}
+.split-screen {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.left-screen, .right-screen {
+  min-width: 0;
+  flex: 1;
+  padding: 20px;
+}
+.left-screen img, .right-screen img {
+  max-width: 100%;
+}
+caption{
+  color: navy;
+  font-weight: bold;
+}
+textarea {
+  width: 100%;
 }

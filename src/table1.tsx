@@ -2,7 +2,7 @@ function Table1(){
     return(
         <>
             <table className="collapse">
-                <caption>Anime</caption>
+                <caption>Anime Rating</caption>
                 <tr>
                     <th>Name</th>
                     <th>Number of episodes</th>

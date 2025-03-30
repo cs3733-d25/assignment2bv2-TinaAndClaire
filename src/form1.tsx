@@ -1,6 +1,7 @@
 function Form1(){
     return(
         <>
+            <h4>Share your thoughts!</h4>
             <form>
                 <label htmlFor="hobbies">What hobbies do you have?</label>
                 <input type="text" id="hobbies"/>
