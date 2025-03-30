@@ -22,6 +22,10 @@ h1{
 #favorite{
   color: blue;
 }
+
+#reasons{
+  color: darkolivegreen;
+}
 .collapse, .collapse td, .collapse th {
   border: 1px solid black;
   border-collapse: collapse;

@@ -8,6 +8,7 @@ function Intro(props: { name: string; }) {
     }else if (props.name==="Claire"){
         return(
             <>
+                <p>Hey! I'm Claire Desrosiers, a junior at WPI studying computer science and finance.</p>
             </>
         )
     }
