@@ -32,13 +32,11 @@ function Form2(){
                 <label htmlFor="comments">Comments</label>
                 <br />
                 <textarea name="comments" id="comments" cols={50} rows={10} placeholder="Checkout the dropdown menu below for other relevant info to include."></textarea>
-                <div className ="dropdown">
-                    <button className ="dropbtn">Other Helpful Info</button>
-                    <div className ="dropdown-content">
-                        <a href="https://www.rei.com/learn/expert-advice/day-hiking-checklist.html?msockid=2c3259d3a1c1663a2a174c42a00a6710">Packing Suggestions</a>
-                        <a href="https://www.iexplore.com/experiences/hiking/22-things-to-know-you-go-hiking">Tips</a>
-                    </div>
-                </div>
+                <label htmlFor="drop down">Do you think you'll try one of these hikes?</label>
+                <select name="try a hike" id="try a hike">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
                 <br /> <br />
                 <input type="button" value="Submit" id="submitButton" />
             </form>
