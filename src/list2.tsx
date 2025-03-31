@@ -1,6 +1,7 @@
 function List2(){
     return(
         <>
+            <h4>Reasons why hiking is a great hobby:</h4>
             <ul>
                 <li id="reasons">It's a great workout</li>
                 <li>It can be a peaceful experience</li>
