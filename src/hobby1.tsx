@@ -6,7 +6,7 @@ function Hobby1(){
         <>
             <p>My hobby are watching anime, playing games, and making origami. My latest game obsession if Wuthering Waves(aka WUWA).</p>
             <div className="banner">
-                <img src="../public/tina-image.jpg" alt="AI generated image of my hobby" width={640}></img>
+                <img src="../public/tina-image.jpg" alt="AI generated image of my hobby" width={640} height={350}></img>
             </div>
             <List1/>
             <Table1/>

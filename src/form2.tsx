@@ -31,7 +31,7 @@ function Form2(){
                 <br /> <br />
                 <label htmlFor="comments">Comments</label>
                 <br />
-                <textarea name="comments" id="comments" cols={50} rows={10} placeholder="Checkout the dropdown menu below for other relevant info to include."></textarea>
+                <textarea name="comments" id="comments" cols={50} rows={10} placeholder="Anything to add?"></textarea>
                 <label htmlFor="drop down">Do you think you'll try one of these hikes?</label>
                 <select name="try a hike" id="try a hike">
                     <option value="yes">Yes</option>
